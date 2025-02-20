@@ -13,6 +13,22 @@ const commands = [
         required: true,
       },
     ],
+  },
+  {
+    name: 'noti',
+    description: 'Get notification',
+    options: [
+      {
+        type: ApplicationCommandOptionType.Subcommand,
+        name: 'commit',
+        description: 'Notification latest commit',
+      },
+      {
+        type: ApplicationCommandOptionType.Subcommand,
+        name: 'blog',
+        description: 'Notification latest blog post',
+      }
+    ],
   }
 ];
 
