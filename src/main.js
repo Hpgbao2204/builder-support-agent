@@ -27,7 +27,7 @@ const client = new Client({
 });
 
 // File paths
-const CONFIG_DIR = path.join(__dirname, '.');
+const CONFIG_DIR = path.join(__dirname, './urls');
 const REPOS_FILE = path.join(CONFIG_DIR, 'repos.json');
 const LINKS_FILE = path.join(CONFIG_DIR, 'links.json');
 
