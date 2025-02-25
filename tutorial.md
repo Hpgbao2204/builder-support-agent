@@ -6,6 +6,7 @@ Create a `.env` file to store the following credentials:
 - `SERVER_ID` - The ID of your Discord server  
 - `CLIENT_ID` - The bot's client ID (can be found in the Discord Developer Dashboard)  
 - `GOOGLE_API_KEY` - Your Google API key (if required)  
+- `GITHUB_TOKEN` - Your github Token
 
 ## 2. Deploy the Bot
 You can deploy the bot using [Railway](https://railway.app/) or any other preferred hosting platform.  
